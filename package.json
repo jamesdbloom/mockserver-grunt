@@ -17,7 +17,7 @@
     },
     "licenses": [
         {
-            "type": "Apache",
+            "type": "Apache-2.0",
             "url": "https://raw.githubusercontent.com/jamesdbloom/mockserver/master/license.txt"
         }
     ],
