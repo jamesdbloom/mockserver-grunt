@@ -67,7 +67,7 @@ module.exports = function (grunt) {
         var done = this.async();
         var artifactoryHost = 'oss.sonatype.org';
         var artifactoryPath = '/content/repositories/releases/org/mock-server/mockserver-netty/';
-        require('./downloadJar').downloadJar('3.10.6', artifactoryHost, artifactoryPath).then(function () {
+        require('./downloadJar').downloadJar('3.10.8', artifactoryHost, artifactoryPath).then(function () {
             done(true);
         }, function () {
             done(false);

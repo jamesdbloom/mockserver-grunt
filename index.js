@@ -142,7 +142,7 @@ module.exports = (function () {
             var startupRetries = 100; // wait for 10 seconds
 
             // double check the jar has already been downloaded
-            require('./downloadJar').downloadJar('3.10.6', artifactoryHost, artifactoryPath).then(function () {
+            require('./downloadJar').downloadJar('3.10.8', artifactoryHost, artifactoryPath).then(function () {
 
                 var spawn = require('child_process').spawn;
                 var glob = require('glob');
